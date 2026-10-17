@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyGit\\Personal\\Jassen\\JassApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthias.mueller\\AppData\\Roaming\\Microsoft\\UserSecrets\\JassApi-Development-Configuration\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\mcp\\playerdatatools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\mcp\\playerdatatools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\application\\jassdataqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\application\\jassdataqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\infrastructure\\apiexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\infrastructure\\apiexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\application\\jassdatamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\application\\jassdatamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\application\\playerroundquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\application\\playerroundquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\application\\playerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\application\\playerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\jassapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\jassapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\src\\jassapi\\jassapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60A58876-0DA8-4F80-AB21-C1432046C02D}|src\\JassApi\\JassApi.csproj|solutionrelative:src\\jassapi\\jassapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerDataTools.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Mcp\\PlayerDataTools.cs",
+              "RelativeDocumentMoniker": "src\\JassApi\\Mcp\\PlayerDataTools.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Mcp\\PlayerDataTools.cs",
+              "RelativeToolTip": "src\\JassApi\\Mcp\\PlayerDataTools.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T14:27:11.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerResponse.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\PlayerResponse.cs",
+              "RelativeDocumentMoniker": "src\\JassApi\\Application\\PlayerResponse.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\PlayerResponse.cs",
+              "RelativeToolTip": "src\\JassApi\\Application\\PlayerResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T16:33:42.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\JassApi\\appsettings.json",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\appsettings.json",
+              "RelativeToolTip": "src\\JassApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-11T14:27:37.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\matthias.mueller\\AppData\\Roaming\\Microsoft\\UserSecrets\\JassApi-Development-Configuration\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\matthias.mueller\\AppData\\Roaming\\Microsoft\\UserSecrets\\JassApi-Development-Configuration\\secrets.json",
+              "ToolTip": "C:\\Users\\matthias.mueller\\AppData\\Roaming\\Microsoft\\UserSecrets\\JassApi-Development-Configuration\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\matthias.mueller\\AppData\\Roaming\\Microsoft\\UserSecrets\\JassApi-Development-Configuration\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-11T14:46:06.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JassDataQueryService.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\JassDataQueryService.cs",
+              "RelativeDocumentMoniker": "src\\JassApi\\Application\\JassDataQueryService.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\JassDataQueryService.cs",
+              "RelativeToolTip": "src\\JassApi\\Application\\JassDataQueryService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAlwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T16:27:01.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiExceptionHandler.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Infrastructure\\ApiExceptionHandler.cs",
+              "RelativeDocumentMoniker": "src\\JassApi\\Infrastructure\\ApiExceptionHandler.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Infrastructure\\ApiExceptionHandler.cs",
+              "RelativeToolTip": "src\\JassApi\\Infrastructure\\ApiExceptionHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T16:30:05.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerRoundQuery.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\PlayerRoundQuery.cs",
+              "RelativeDocumentMoniker": "src\\JassApi\\Application\\PlayerRoundQuery.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\PlayerRoundQuery.cs",
+              "RelativeToolTip": "src\\JassApi\\Application\\PlayerRoundQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T16:33:46.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JassDataMapper.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\JassDataMapper.cs",
+              "RelativeDocumentMoniker": "src\\JassApi\\Application\\JassDataMapper.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Application\\JassDataMapper.cs",
+              "RelativeToolTip": "src\\JassApi\\Application\\JassDataMapper.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T16:33:49.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\JassApi\\Program.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\Program.cs",
+              "RelativeToolTip": "src\\JassApi\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAC4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T14:27:40.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JassApi.http",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\JassApi.http",
+              "RelativeDocumentMoniker": "src\\JassApi\\JassApi.http",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\JassApi.http",
+              "RelativeToolTip": "src\\JassApi\\JassApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-11T14:28:09.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JassApi.csproj",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\JassApi.csproj",
+              "RelativeDocumentMoniker": "src\\JassApi\\JassApi.csproj",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\src\\JassApi\\JassApi.csproj",
+              "RelativeToolTip": "src\\JassApi\\JassApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-09T11:52:10.667Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

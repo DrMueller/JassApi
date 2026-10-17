@@ -1,0 +1,30 @@
+name: 1.0$(rev:.r) # build numbering format
+
+trigger: none
+
+
+resources:
+  pipelines:
+    - pipeline: ca-pip # Name of the pipeline resource
+      source: 02-JassApi-Create-Artifacts # Name of the pipeline referenced by the pipeline resource
+      trigger: true
+
+pool:
+  name: Azure Pipelines
+  vmImage: windows-2022
+
+variables:
+  - group: JassApi-Production
+
+stages:
+  - stage: Production
+    displayName: "Production"
+    jobs:
+      - deployment: "DeploymentProduction"
+        displayName: "Deployment Production"
+        environment: "JassApi-Production"
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - template: Release_Steps.yaml

@@ -1,0 +1,19 @@
+@baseUrl = https://localhost:7001
+@accessToken = replace-with-a-valid-entra-access-token
+@mcpEndpoint = {{baseUrl}}/mcp
+
+### Health check
+GET {{baseUrl}}/health
+
+### MCP endpoint requires bearer authentication and an authorized scope or app role
+POST {{mcpEndpoint}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}
+
+### Unauthorized request
+POST {{mcpEndpoint}}
+Content-Type: application/json
+
+{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}

@@ -1,0 +1,13 @@
+parameters:
+  ConnectedServiceName: '8f844eb9-4cc9-486f-b55b-7d40da6c41c0'
+  WebAppKind: 'webApp'
+  WebAppName: 'JassApi'
+
+steps:
+- task: AzureRmWebAppDeployment@4
+  displayName: 'Deploy Azure App Service'
+  inputs:
+    azureSubscription: '${{ parameters.ConnectedServiceName }}'
+    appType: '${{ parameters.WebAppKind }}'
+    WebAppName: '${{ parameters.WebAppName }}'
+    JSONFiles: '**/appsettings.json'
