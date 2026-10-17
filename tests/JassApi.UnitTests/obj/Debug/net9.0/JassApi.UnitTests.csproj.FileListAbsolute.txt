@@ -183,3 +183,4 @@ C:\MyGit\Personal\Jassen\JassApi\tests\JassApi.UnitTests\obj\Debug\net9.0\refint
 C:\MyGit\Personal\Jassen\JassApi\tests\JassApi.UnitTests\obj\Debug\net9.0\JassApi.UnitTests.pdb
 C:\MyGit\Personal\Jassen\JassApi\tests\JassApi.UnitTests\obj\Debug\net9.0\JassApi.UnitTests.genruntimeconfig.cache
 C:\MyGit\Personal\Jassen\JassApi\tests\JassApi.UnitTests\obj\Debug\net9.0\ref\JassApi.UnitTests.dll
+C:\MyGit\Personal\Jassen\JassApi\tests\JassApi.UnitTests\bin\Debug\net9.0\JassApi.exe
