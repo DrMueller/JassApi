@@ -18,17 +18,19 @@ public static class EntraIdAuthenticationExtensions
         {
             var instance = configuration["AzureAd:Instance"] ?? "https://login.microsoftonline.com/";
             var tenantId = configuration["AzureAd:TenantId"];
-            var audience = configuration["AzureAd:Audience"];
+            var resourceUrl = configuration["Mcp:ResourceUrl"];
+            var appIdUri = configuration["AzureAd:AppIdUri"]; // api://d80a0b90-3b3e-45a2-804f-9c129a25999c
             var scopes = configuration.GetSection("AzureAd:RequiredScopes").Get<string[]>() ?? [];
 
             if (!string.IsNullOrWhiteSpace(tenantId)
-                && !string.IsNullOrWhiteSpace(audience)
+                && !string.IsNullOrWhiteSpace(resourceUrl)
+                && !string.IsNullOrWhiteSpace(appIdUri)
                 && Uri.TryCreate(instance, UriKind.Absolute, out _))
                 options.ResourceMetadata = new ProtectedResourceMetadata
                 {
-                    Resource = audience,
+                    Resource = resourceUrl,
                     AuthorizationServers = { $"{instance.TrimEnd('/')}/{tenantId}/v2.0" },
-                    ScopesSupported = scopes
+                    ScopesSupported = scopes.Select(s => $"{appIdUri.TrimEnd('/')}/{s}").ToList()
                 };
         });
 
