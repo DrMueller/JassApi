@@ -4,6 +4,6 @@ steps:
     inputs:
       buildType: specific
       project: "ba9fa09c-552b-4c7d-ac6c-65c3351012f4"
-      definition: 258
+      definition: 271
       specificBuildWithTriggering: true
       downloadPath: $(System.DefaultWorkingDirectory)
