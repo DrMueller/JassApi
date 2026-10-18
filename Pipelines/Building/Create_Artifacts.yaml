@@ -35,13 +35,13 @@ jobs:
       keepToken: true
 
   - task: DotNetCoreCLI@2
-    displayName: Publish Blazor
+    displayName: Publish App
     inputs:
       command: publish
 
       publishWebProjects: false
 
-      projects: 'Sources/Application/JassApp.csproj'
+      projects: 'Sources/Application/JassApi.csproj'
 
       arguments: '--configuration $(BuildConfiguration) --output $(PublishPath)/App /p:DeleteExistingFiles=True'
 
