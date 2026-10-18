@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\MyGit\\Personal\\Jassen\\JassApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\sources\\application\\authentication\\apikeyauthenticationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|solutionrelative:sources\\application\\authentication\\apikeyauthenticationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\sources\\application\\authentication\\apikeyauthenticationdefaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|solutionrelative:sources\\application\\authentication\\apikeyauthenticationdefaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\sources\\application\\authentication\\apikeyauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|solutionrelative:sources\\application\\authentication\\apikeyauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|c:\\mygit\\personal\\jassen\\jassapi\\sources\\application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F791DB50-A995-0E46-7CC5-0ADD0DA057AB}|Sources\\Application\\JassApi.csproj|solutionrelative:sources\\application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +51,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiKeyAuthenticationExtensions.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\Authentication\\ApiKeyAuthenticationExtensions.cs",
+              "RelativeDocumentMoniker": "Sources\\Application\\Authentication\\ApiKeyAuthenticationExtensions.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\Authentication\\ApiKeyAuthenticationExtensions.cs",
+              "RelativeToolTip": "Sources\\Application\\Authentication\\ApiKeyAuthenticationExtensions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:36:20.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiKeyAuthenticationDefaults.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\Authentication\\ApiKeyAuthenticationDefaults.cs",
+              "RelativeDocumentMoniker": "Sources\\Application\\Authentication\\ApiKeyAuthenticationDefaults.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\Authentication\\ApiKeyAuthenticationDefaults.cs",
+              "RelativeToolTip": "Sources\\Application\\Authentication\\ApiKeyAuthenticationDefaults.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:36:10.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiKeyAuthenticationHandler.cs",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\Authentication\\ApiKeyAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Sources\\Application\\Authentication\\ApiKeyAuthenticationHandler.cs",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\Authentication\\ApiKeyAuthenticationHandler.cs",
+              "RelativeToolTip": "Sources\\Application\\Authentication\\ApiKeyAuthenticationHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:35:30.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\appsettings.json",
+              "RelativeDocumentMoniker": "Sources\\Application\\appsettings.json",
+              "ToolTip": "C:\\MyGit\\Personal\\Jassen\\JassApi\\Sources\\Application\\appsettings.json",
+              "RelativeToolTip": "Sources\\Application\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-18T13:29:40.663Z",
+              "EditorCaption": ""
             }
           ]
         }

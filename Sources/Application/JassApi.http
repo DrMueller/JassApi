@@ -1,19 +1,21 @@
 @baseUrl = https://localhost:7001
-@accessToken = replace-with-a-valid-entra-access-token
+@apiKey = replace-with-a-key-from-user-secrets
 @mcpEndpoint = {{baseUrl}}/mcp
 
 ### Health check
 GET {{baseUrl}}/health
 
-### MCP endpoint requires bearer authentication and an authorized scope or app role
+### MCP endpoint requires an API key
 POST {{mcpEndpoint}}
-Authorization: Bearer {{accessToken}}
+X-Api-Key: {{apiKey}}
 Content-Type: application/json
+Accept: application/json, text/event-stream
 
 {"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}
 
-### Unauthorized request
+### Unauthorized request without an API key
 POST {{mcpEndpoint}}
 Content-Type: application/json
+Accept: application/json, text/event-stream
 
 {"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}

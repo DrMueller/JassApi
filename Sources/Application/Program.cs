@@ -4,6 +4,7 @@ using JassApi.Authentication;
 using JassApi.Infrastructure;
 using JassApi.Mcp;
 using JassApi.Persistence;
+using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,17 @@ builder.Services.AddSingleton<IJassApiDbContextFactory>(_ =>
     return new JassApiDbContextFactory(JassApiDbContextOptions.Create(connectionString));
 });
 builder.Services.AddScoped<IJassDataQueryService, JassDataQueryService>();
-builder.Services.AddEntraIdApiAuthentication(builder.Configuration);
+builder.Services.AddApiKeyAuthentication(builder.Configuration);
+
+if (builder.Configuration.GetValue<bool>("ASPNETCORE_FORWARDEDHEADERS_ENABLED"))
+{
+    builder.Services.Configure<ForwardedHeadersOptions>(options =>
+    {
+        options.ForwardedHeaders = ForwardedHeaders.XForwardedProto;
+        options.KnownNetworks.Clear();
+        options.KnownProxies.Clear();
+    });
+}
 
 builder.Services
     .AddMcpServer()
@@ -29,6 +40,8 @@ builder.Services
 
 var app = builder.Build();
 
+app.UseForwardedHeaders();
+app.UseHttpsRedirection();
 app.UseExceptionHandler();
 app.UseStatusCodePages();
 app.UseAuthentication();
